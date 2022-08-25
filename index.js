@@ -2,6 +2,15 @@ class NumbersFunctions {
   constructor(number) {
     this.number = number;
   }
+
+  triangleNumbers() {
+    let result = [];
+    for (let i = 1; i < this.number; i++) {
+      result.push((i * (i + 1)) / 2);
+    }
+    return result;
+  }
+
   fibonacci() {
     let result = [];
     result[0] = 0;
@@ -11,6 +20,7 @@ class NumbersFunctions {
     }
     return result;
   }
+
   primesNumbers() {
     let result = [];
     let i = 2;
@@ -26,13 +36,6 @@ class NumbersFunctions {
         }
       }
       return number !== 1;
-    }
-    return result;
-  }
-  triangleNumbers() {
-    let result = [];
-    for (let i = 1; i < this.number; i++) {
-      result.push((i * (i + 1)) / 2);
     }
     return result;
   }
