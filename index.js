@@ -1,4 +1,4 @@
-class NumberFunction {
+class NumbersFunctions {
   constructor(number) {
     this.number = number;
   }
@@ -29,7 +29,7 @@ class NumberFunction {
     }
     return result;
   }
-  triangleNumber() {
+  triangleNumbers() {
     let result = [];
     for (let i = 1; i < this.number; i++) {
       result.push((i * (i + 1)) / 2);
@@ -38,8 +38,4 @@ class NumberFunction {
   }
 }
 
-const fibonacciInstance = new NumberFunction(10).fibonacci();
-
-const primesInstance = new NumberFunction(100).primesNumbers();
-
-const triangleInstance = new NumberFunction(5).triangleNumber();
+export default NumbersFunctions;
