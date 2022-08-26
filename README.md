@@ -1,4 +1,4 @@
-#Prueba técnica en donde se creó una clase NumbersFunctions con 3 métodos fibonacci,primesNumbers y triangleNumbers.
+#Se creó una clase NumbersFunctions con 3 métodos fibonacci,primesNumbers y triangleNumbers.
 
 #1- Correr npm install para la descarga e instalación de dependencias
 
